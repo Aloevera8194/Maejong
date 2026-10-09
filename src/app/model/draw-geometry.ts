@@ -33,7 +33,7 @@ export function sortDrawItems<T extends DrawPlacement>(items: Array<T>): Array<T
 }
 
 export function getDrawBoundsViewportBounds(bounds: Array<number>): Array<number> {
-	const border = 20;
+	const border = 6;
 	return [
 		bounds[0] - border,
 		bounds[1] - border,
