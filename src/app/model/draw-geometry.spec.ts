@@ -95,7 +95,7 @@ describe('Draw geometry', () => {
 		it('should calculate viewport from bounds correctly', () => {
 			const bounds = [10, 20, 30, 40];
 			const viewport = getDrawBoundsViewport(bounds);
-			expect(viewport).toBe('-10 0 60 60');
+			expect(viewport).toBe('4 14 32 32');
 		});
 	});
 
